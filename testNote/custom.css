@@ -1,0 +1,4 @@
+/* 注入webkit scrollbar属性取消滚动条显示*/
+.mindmap-container::-webkit-scrollbar {
+	display: none !important;
+}
