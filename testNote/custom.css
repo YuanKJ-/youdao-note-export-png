@@ -2,3 +2,19 @@
 .mindmap-container::-webkit-scrollbar {
 	display: none !important;
 }
+
+.max-height {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 100% !important;
+	min-width: 0 !important;
+	padding: 0 !important;
+}
+
+.add-scroll {
+	overflow: auto !important;
+}
+
+.add-scroll::-webkit-scrollbar {
+	display: none !important;
+}

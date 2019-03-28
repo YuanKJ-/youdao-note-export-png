@@ -23,7 +23,8 @@
             //"matches": ["http://*/*", "https://*/*"],
             // "<all_urls>" 表示匹配所有地址
             "matches": ["https://note.youdao.com/ynoteshare1/index.html*",
-            	"https://note.youdao.com/mindmap*"],
+            	"https://note.youdao.com/mindmap*",
+                "https://note.youdao.com/md/preview*"],
             // 多个JS按顺序注入
             "js": ["jquery-3.3.1.min.js", "background.js"],
 			// JS的注入可以随便一点，但是CSS的注意就要千万小心了，因为一不小心就可能影响全局样式
